@@ -10,7 +10,7 @@ var attribute = 0;
 function reloadLabirint() {
     n = Math.floor(document.getElementById('labWidth').value);
     m = Math.floor(document.getElementById('labHeight').value);
-    if ((n >= 2) && (n <= 100) && (n >= 2) && (n <= 100)) {
+    if ((n >= 2) && (n <= 100) && (m >= 2) && (m <= 100)) {
         arrayLabirint = new Array(n);
         path_found = false;
         attribute = 0;
