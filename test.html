@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">        
+        <script src="jquery-2.2.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="test.js"></script>
+        
+        <canvas id="myCanvas" style="background-color: #efefef; border:1px solid #000000;">
+            Canvas not supported!
+        </canvas>
+        <div class="input-group" style="width:270px; margin-top: 10px;">
+            <span class="input-group-addon" style="width:66px;">Width</span>
+            <input type="number" min="2" max="100" id="labWidth"  class="form-control" placeholder="Width of labirint" value="20">
+             <span class="input-group-addon">*22 px</span>
+        </div>
+        <div class="input-group" style="width:270px; margin-top: 10px;">
+            <span class="input-group-addon">Height</span>
+            <input type="number" class="form-control" id="labHeight" min="2" max="100" placeholder="Height of labirint" value="20">
+             <span class="input-group-addon">*22 px</span>
+        </div>
+        <input type="button" style="margin-top:10px;" onclick="reloadLabirint ()" value="Go!">
+    </body>    
+</html>
